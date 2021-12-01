@@ -13,11 +13,14 @@ public class Task {
     int interval;
 
     Task(String title, int time){
-
+        this.title=title;
+        this.time=time;
     }
 
     Task(String title, int start, int end, int interval){
-
+        this.title=title;
+        this.start=start;
+        this.end=end;
     }
 
     String getTitle(){
@@ -95,6 +98,5 @@ public class Task {
         }
         return 0;
     }
-
 
 }
